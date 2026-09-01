@@ -1,0 +1,22 @@
+state = {
+	id = 89
+	name = "STATE_WT_89"
+	manpower = 1150000
+	state_category = town
+
+	history = {
+		owner = ECL
+		add_core_of = ECL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 105 1 }
+	}
+
+	provinces = {
+		105 675 831 1319 1479 1491 1720 1734 1896 2106 2162 2192 2277 2732 2942 3113 3546 3589 3607 3767 3987 4179 4954
+	}
+}

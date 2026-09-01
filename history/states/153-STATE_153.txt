@@ -1,0 +1,26 @@
+state = {
+	id = 153
+	name = "STATE_WT_153"
+	manpower = 1300000
+	state_category = town
+
+	history = {
+		owner = WTE
+		add_core_of = WTE
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			1353 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 218 1 }
+	}
+
+	provinces = {
+		218 458 861 928 1046 1154 1221 1353 1372 1602 2304 2354 2557 2597 2693 2730 2849 2870 3136 3151 3233 3815 4067 4131 4274 4344
+	}
+}

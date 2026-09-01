@@ -1,0 +1,26 @@
+state = {
+	id = 257
+	name = "STATE_WT_257"
+	manpower = 1150000
+	state_category = town
+
+	history = {
+		owner = ELE
+		add_core_of = ELE
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			5060 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5038 1 }
+	}
+
+	provinces = {
+		5038 5046 5051 5060 5061 5065 5074 5079 5087 5096 5099 5113 5132 5145 5174 5209 5239 5252 5274 5280 5310 5331 5347
+	}
+}

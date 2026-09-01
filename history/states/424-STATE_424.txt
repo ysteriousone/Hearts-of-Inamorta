@@ -1,0 +1,22 @@
+state = {
+	id = 424
+	name = "STATE_WT_424"
+	manpower = 800000
+	state_category = town
+
+	history = {
+		owner = SWR
+		add_core_of = SWR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 5745 1 }
+	}
+
+	provinces = {
+		5745 5829 6491 6969 7869 9474 9491 9639 10140 10703 10734 10761 10903 11034 11069 11182
+	}
+}

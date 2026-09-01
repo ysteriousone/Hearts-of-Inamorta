@@ -1,0 +1,22 @@
+state = {
+	id = 166
+	name = "STATE_WT_166"
+	manpower = 1400000
+	state_category = town
+
+	history = {
+		owner = MRW
+		add_core_of = MRW
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 253 1 }
+	}
+
+	provinces = {
+		253 312 348 527 887 1034 1369 1617 1682 1752 2263 2288 2292 2309 2477 2847 2971 3197 3222 4051 4175 4250 4257 4297 4303 4372 4698 4720
+	}
+}

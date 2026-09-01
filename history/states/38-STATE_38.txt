@@ -1,0 +1,26 @@
+state = {
+	id = 38
+	name = "STATE_WT_38"
+	manpower = 850000
+	state_category = town
+
+	history = {
+		owner = ERT
+		add_core_of = ERT
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			39 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 39 1 }
+	}
+
+	provinces = {
+		39 617 873 1114 1256 1822 1866 2828 2974 3239 3521 3654 3763 3919 4196 4584 4923
+	}
+}

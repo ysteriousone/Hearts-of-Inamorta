@@ -1,0 +1,26 @@
+state = {
+	id = 416
+	name = "STATE_WT_416"
+	manpower = 750000
+	state_category = town
+
+	history = {
+		owner = ESY
+		add_core_of = ESY
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			5732 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5732 1 }
+	}
+
+	provinces = {
+		5732 6352 6472 6875 6918 7032 7266 7603 7968 9032 10016 10297 10658 10788 11108
+	}
+}

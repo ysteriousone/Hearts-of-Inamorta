@@ -1,0 +1,22 @@
+state = {
+	id = 180
+	name = "STATE_WT_180"
+	manpower = 1050000
+	state_category = town
+
+	history = {
+		owner = ODE
+		add_core_of = ODE
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 301 1 }
+	}
+
+	provinces = {
+		301 668 810 910 1023 1263 1622 1753 2112 2310 2581 2794 2824 3394 3846 4155 4200 4308 4776 4968 5007
+	}
+}

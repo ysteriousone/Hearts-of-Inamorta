@@ -1,0 +1,8 @@
+supply_area={
+	id=39
+	name="SUPPLYAREA_WT_39"
+	value=7
+	states={
+		571 572 573 574 575 576 577
+	}
+}

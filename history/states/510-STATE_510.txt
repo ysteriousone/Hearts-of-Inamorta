@@ -1,0 +1,22 @@
+state = {
+	id = 510
+	name = "STATE_WT_510"
+	manpower = 1000000
+	state_category = town
+
+	history = {
+		owner = FNB
+		add_core_of = FNB
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 5980 1 }
+	}
+
+	provinces = {
+		5980 6034 6090 6328 6475 6569 6824 7446 7667 7696 7791 7845 7867 8615 8823 9025 9068 9542 10239 10818
+	}
+}

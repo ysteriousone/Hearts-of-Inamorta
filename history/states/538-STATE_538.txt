@@ -1,0 +1,26 @@
+state = {
+	id = 538
+	name = "STATE_WT_538"
+	manpower = 750000
+	state_category = town
+
+	history = {
+		owner = WST
+		add_core_of = WST
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			6156 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 6140 1 }
+	}
+
+	provinces = {
+		6140 6156 6187 6585 6594 7125 8667 9027 9029 9048 9339 9643 10912 11181 11304
+	}
+}

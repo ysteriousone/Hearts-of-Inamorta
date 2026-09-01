@@ -1,0 +1,26 @@
+state = {
+	id = 454
+	name = "STATE_WT_454"
+	manpower = 900000
+	state_category = town
+
+	history = {
+		owner = ESY
+		add_core_of = ESY
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			6115 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5811 1 }
+	}
+
+	provinces = {
+		5811 6115 6970 7386 7420 7827 8029 8343 8915 8944 8997 9361 9454 9684 10568 10740 10778 10929
+	}
+}

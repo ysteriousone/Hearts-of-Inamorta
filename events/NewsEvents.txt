@@ -1,0 +1,4 @@
+# Emptied — TC MOD overrides vanilla NewsEvents.txt
+# Reason: references state IDs or scope targets not in TC MOD
+# Keep add_namespace declarations so other files' ID refs don't break
+add_namespace = news

@@ -1,0 +1,26 @@
+state = {
+	id = 19
+	name = "STATE_WT_19"
+	manpower = 850000
+	state_category = town
+
+	history = {
+		owner = CHO
+		add_core_of = CHO
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			1138 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 19 1 }
+	}
+
+	provinces = {
+		19 652 817 1138 1588 1785 1874 2122 2259 3028 3045 3382 3482 3511 3734 3737 4583
+	}
+}

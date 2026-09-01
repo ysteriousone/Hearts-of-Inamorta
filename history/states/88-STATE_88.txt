@@ -1,0 +1,26 @@
+state = {
+	id = 88
+	name = "STATE_WT_88"
+	manpower = 1300000
+	state_category = town
+
+	history = {
+		owner = ELT
+		add_core_of = ELT
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			906 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 104 1 }
+	}
+
+	provinces = {
+		104 906 1565 1566 1831 2419 2564 2764 3024 3088 3312 3330 3744 3778 3814 3881 3917 3997 4061 4074 4173 4219 4239 4566 4627 4858
+	}
+}

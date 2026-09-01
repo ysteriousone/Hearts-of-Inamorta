@@ -1,0 +1,22 @@
+state = {
+	id = 105
+	name = "STATE_WT_105"
+	manpower = 800000
+	state_category = town
+
+	history = {
+		owner = VLT
+		add_core_of = VLT
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 125 1 }
+	}
+
+	provinces = {
+		125 289 956 1333 1951 2121 2887 3465 3492 3494 3818 4162 4480 4514 4711 4833
+	}
+}

@@ -1,0 +1,22 @@
+state = {
+	id = 328
+	name = "STATE_WT_328"
+	manpower = 1050000
+	state_category = town
+
+	history = {
+		owner = NDR
+		add_core_of = NDR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 5615 1 }
+	}
+
+	provinces = {
+		5615 6197 6538 6605 6797 7140 7322 7587 7986 8269 8293 8569 9080 9591 9887 10070 10483 10513 10633 10771 10782
+	}
+}

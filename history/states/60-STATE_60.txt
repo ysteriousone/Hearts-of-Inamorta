@@ -1,0 +1,26 @@
+state = {
+	id = 60
+	name = "STATE_WT_60"
+	manpower = 1150000
+	state_category = town
+
+	history = {
+		owner = AIE
+		add_core_of = AIE
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			3728 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 70 1 }
+	}
+
+	provinces = {
+		70 133 248 365 845 1541 1968 2500 2609 2692 2864 3037 3435 3563 3728 4177 4184 4532 4739 4785 4835 4903 4907
+	}
+}

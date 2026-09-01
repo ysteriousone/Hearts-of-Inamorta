@@ -1,0 +1,26 @@
+state = {
+	id = 575
+	name = "STATE_WT_575"
+	manpower = 550000
+	state_category = town
+
+	history = {
+		owner = ITR
+		add_core_of = ITR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			11381 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 11380 1 }
+	}
+
+	provinces = {
+		11380 11381 11383 11384 11385 11390 11391 11392 11395 11399 11400
+	}
+}

@@ -1,0 +1,22 @@
+state = {
+	id = 442
+	name = "STATE_WT_442"
+	manpower = 1300000
+	state_category = town
+
+	history = {
+		owner = DES
+		add_core_of = DES
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 5784 1 }
+	}
+
+	provinces = {
+		5784 5880 6037 6523 6570 6715 6924 7136 7280 7942 8015 8170 8280 8301 8465 8718 9070 9186 9387 9470 9551 9565 9839 9843 9930 10815
+	}
+}

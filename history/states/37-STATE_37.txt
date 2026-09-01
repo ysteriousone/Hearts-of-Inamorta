@@ -1,0 +1,26 @@
+state = {
+	id = 37
+	name = "STATE_WT_37"
+	manpower = 1050000
+	state_category = town
+
+	history = {
+		owner = WTE
+		add_core_of = WTE
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			38 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 38 1 }
+	}
+
+	provinces = {
+		38 406 557 582 694 1175 1687 1849 2436 2474 2710 3011 3336 3600 3655 3670 3755 4060 4189 4542 4829
+	}
+}

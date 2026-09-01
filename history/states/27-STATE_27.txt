@@ -1,0 +1,22 @@
+state = {
+	id = 27
+	name = "STATE_WT_27"
+	manpower = 950000
+	state_category = town
+
+	history = {
+		owner = ELC
+		add_core_of = ELC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 27 1 }
+	}
+
+	provinces = {
+		27 367 867 1233 1246 1422 1939 1941 1944 2470 2991 3221 3301 3474 4008 4586 4716 4852 4964
+	}
+}

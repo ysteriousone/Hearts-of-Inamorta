@@ -1,0 +1,22 @@
+state = {
+	id = 48
+	name = "STATE_WT_48"
+	manpower = 1050000
+	state_category = town
+
+	history = {
+		owner = GRF
+		add_core_of = GRF
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 53 1 }
+	}
+
+	provinces = {
+		53 203 232 498 563 1472 1724 1746 1945 2006 2874 3016 3281 3350 3568 3776 4032 4120 4441 4840 5009
+	}
+}

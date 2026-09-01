@@ -1,0 +1,26 @@
+state = {
+	id = 319
+	name = "STATE_WT_319"
+	manpower = 1050000
+	state_category = town
+
+	history = {
+		owner = ACH
+		add_core_of = ACH
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			5606 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5606 1 }
+	}
+
+	provinces = {
+		5606 5941 6039 6042 6211 7233 7247 7700 7713 7783 8072 8410 9005 9195 9238 9519 9683 9788 10868 10888 11251
+	}
+}

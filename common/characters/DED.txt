@@ -1,0 +1,144 @@
+﻿characters = {
+
+	DED_leader_despotism = {
+		name = DED_leader_despotism
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { }
+		}
+	}
+
+	DED_leader_conservatism = {
+		name = DED_leader_conservatism
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { }
+		}
+	}
+
+	DED_leader_nazism = {
+		name = DED_leader_nazism
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		country_leader = {
+			ideology = nazism
+			traits = { }
+		}
+	}
+
+	DED_leader_marxism = {
+		name = DED_leader_marxism
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		country_leader = {
+			ideology = marxism
+			traits = { }
+		}
+	}
+
+	DED_field_marshal_1 = {
+		name = DED_field_marshal_1
+		portraits = {
+			army = { large = GFX_Portrait_Europe_Generic_land_1 }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	DED_general_1 = {
+		name = DED_general_1
+		portraits = {
+			army = { large = GFX_Portrait_Europe_Generic_land_2 }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	DED_admiral_1 = {
+		name = DED_admiral_1
+		portraits = {
+			army = { large = GFX_Portrait_Europe_Generic_navy_1 }
+		}
+		navy_leader = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+
+	DED_scientist_1 = {
+		name = DED_scientist_1
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		scientist = {
+			skills = {
+				specialization_air = 2
+			}
+			traits = { }
+		}
+	}
+
+	DED_scientist_2 = {
+		name = DED_scientist_2
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		scientist = {
+			skills = {
+				specialization_industry = 2
+			}
+			traits = { }
+		}
+	}
+
+	DED_scientist_3 = {
+		name = DED_scientist_3
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		scientist = {
+			skills = {
+				specialization_naval = 2
+			}
+			traits = { }
+		}
+	}
+
+	DED_scientist_4 = {
+		name = DED_scientist_4
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		scientist = {
+			skills = {
+				specialization_army = 2
+			}
+			traits = { }
+		}
+	}
+
+}

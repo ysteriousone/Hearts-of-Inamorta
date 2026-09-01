@@ -1,0 +1,22 @@
+state = {
+	id = 73
+	name = "STATE_WT_73"
+	manpower = 1300000
+	state_category = town
+
+	history = {
+		owner = VLT
+		add_core_of = VLT
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 84 1 }
+	}
+
+	provinces = {
+		84 98 235 293 612 640 927 1103 1964 1975 2152 2284 2285 2617 2815 3118 3342 3580 4044 4199 4374 4451 4456 4635 4767 4806
+	}
+}

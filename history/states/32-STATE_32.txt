@@ -1,0 +1,22 @@
+state = {
+	id = 32
+	name = "STATE_WT_32"
+	manpower = 850000
+	state_category = town
+
+	history = {
+		owner = GLT
+		add_core_of = GLT
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 33 1 }
+	}
+
+	provinces = {
+		33 48 159 277 730 863 942 1597 1930 2057 2341 2613 2713 3319 3611 4249 5020
+	}
+}

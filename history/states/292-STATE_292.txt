@@ -1,0 +1,22 @@
+state = {
+	id = 292
+	name = "STATE_WT_292"
+	manpower = 900000
+	state_category = town
+
+	history = {
+		owner = NML
+		add_core_of = NML
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 5576 1 }
+	}
+
+	provinces = {
+		5576 6043 6047 6339 6577 6598 6601 7107 7435 7638 8112 8707 9086 9109 9702 10234 10498 10506
+	}
+}

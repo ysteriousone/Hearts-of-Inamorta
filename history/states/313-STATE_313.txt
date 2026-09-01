@@ -1,0 +1,22 @@
+state = {
+	id = 313
+	name = "STATE_WT_313"
+	manpower = 800000
+	state_category = town
+
+	history = {
+		owner = ACH
+		add_core_of = ACH
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 5599 1 }
+	}
+
+	provinces = {
+		5599 5742 5839 5993 6040 6177 8649 8879 9690 9761 9772 10210 10426 10481 10566 10651
+	}
+}

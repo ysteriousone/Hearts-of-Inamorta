@@ -1,0 +1,144 @@
+﻿characters = {
+
+	CHO_leader_despotism = {
+		name = CHO_leader_despotism
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { }
+		}
+	}
+
+	CHO_leader_conservatism = {
+		name = CHO_leader_conservatism
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { }
+		}
+	}
+
+	CHO_leader_nazism = {
+		name = CHO_leader_nazism
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		country_leader = {
+			ideology = nazism
+			traits = { }
+		}
+	}
+
+	CHO_leader_marxism = {
+		name = CHO_leader_marxism
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		country_leader = {
+			ideology = marxism
+			traits = { }
+		}
+	}
+
+	CHO_field_marshal_1 = {
+		name = CHO_field_marshal_1
+		portraits = {
+			army = { large = GFX_Portrait_Europe_Generic_land_1 }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	CHO_general_1 = {
+		name = CHO_general_1
+		portraits = {
+			army = { large = GFX_Portrait_Europe_Generic_land_2 }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	CHO_admiral_1 = {
+		name = CHO_admiral_1
+		portraits = {
+			army = { large = GFX_Portrait_Europe_Generic_navy_1 }
+		}
+		navy_leader = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+
+	CHO_scientist_1 = {
+		name = CHO_scientist_1
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		scientist = {
+			skills = {
+				specialization_air = 2
+			}
+			traits = { }
+		}
+	}
+
+	CHO_scientist_2 = {
+		name = CHO_scientist_2
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		scientist = {
+			skills = {
+				specialization_industry = 2
+			}
+			traits = { }
+		}
+	}
+
+	CHO_scientist_3 = {
+		name = CHO_scientist_3
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		scientist = {
+			skills = {
+				specialization_naval = 2
+			}
+			traits = { }
+		}
+	}
+
+	CHO_scientist_4 = {
+		name = CHO_scientist_4
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		scientist = {
+			skills = {
+				specialization_army = 2
+			}
+			traits = { }
+		}
+	}
+
+}

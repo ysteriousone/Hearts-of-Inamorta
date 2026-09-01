@@ -1,0 +1,201 @@
+bookmarks = {
+	bookmark = {
+		name = FANTASY_WORLD_BOOKMARK
+		desc = FANTASY_WORLD_BOOKMARK_DESC
+		date = 1936.1.1.12
+		picture = GFX_select_date_1936
+		default_country = "ODE"
+		default = yes
+
+		"ODE" = {
+			history = "ODE_BOOKMARK_DESC"
+			ideology = neutrality
+		}
+		"TRB" = {
+			history = "TRB_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"ACH" = {
+			history = "ACH_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"SWR" = {
+			history = "SWR_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"SPT" = {
+			history = "SPT_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"PRT" = {
+			history = "PRT_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"ITR" = {
+			history = "ITR_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"MAG" = {
+			history = "MAG_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"ESY" = {
+			history = "ESY_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"WSR" = {
+			history = "WSR_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"WST" = {
+			history = "WST_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"NML" = {
+			history = "NML_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"DED" = {
+			history = "DED_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"DES" = {
+			history = "DES_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"WOO" = {
+			history = "WOO_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"DER" = {
+			history = "DER_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"MID" = {
+			history = "MID_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"NDR" = {
+			history = "NDR_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"CHO" = {
+			history = "CHO_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"ELE" = {
+			history = "ELE_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"MRW" = {
+			history = "MRW_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"ELT" = {
+			history = "ELT_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"COV" = {
+			history = "COV_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"ELC" = {
+			history = "ELC_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"FNB" = {
+			history = "FNB_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"JGT" = {
+			history = "JGT_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"CRL" = {
+			history = "CRL_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"ECL" = {
+			history = "ECL_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"ERT" = {
+			history = "ERT_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"WTE" = {
+			history = "WTE_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"AIE" = {
+			history = "AIE_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"GLT" = {
+			history = "GLT_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"VMP" = {
+			history = "VMP_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"FEL" = {
+			history = "FEL_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"KOV" = {
+			history = "KOV_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"VLT" = {
+			history = "VLT_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"GRF" = {
+			history = "GRF_BOOKMARK_DESC"
+			ideology = neutrality
+			minor = yes
+		}
+		"---" = {
+			history = FANTASY_WORLD_OTHER_BOOKMARK_DESC
+		}
+		effect = {
+			randomize_weather = 22345
+		}
+	}
+}

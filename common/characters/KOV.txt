@@ -1,0 +1,144 @@
+﻿characters = {
+
+	KOV_leader_despotism = {
+		name = KOV_leader_despotism
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { }
+		}
+	}
+
+	KOV_leader_conservatism = {
+		name = KOV_leader_conservatism
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { }
+		}
+	}
+
+	KOV_leader_nazism = {
+		name = KOV_leader_nazism
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		country_leader = {
+			ideology = nazism
+			traits = { }
+		}
+	}
+
+	KOV_leader_marxism = {
+		name = KOV_leader_marxism
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		country_leader = {
+			ideology = marxism
+			traits = { }
+		}
+	}
+
+	KOV_field_marshal_1 = {
+		name = KOV_field_marshal_1
+		portraits = {
+			army = { large = GFX_Portrait_Europe_Generic_land_1 }
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	KOV_general_1 = {
+		name = KOV_general_1
+		portraits = {
+			army = { large = GFX_Portrait_Europe_Generic_land_2 }
+		}
+		corps_commander = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	KOV_admiral_1 = {
+		name = KOV_admiral_1
+		portraits = {
+			army = { large = GFX_Portrait_Europe_Generic_navy_1 }
+		}
+		navy_leader = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+
+	KOV_scientist_1 = {
+		name = KOV_scientist_1
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		scientist = {
+			skills = {
+				specialization_air = 2
+			}
+			traits = { }
+		}
+	}
+
+	KOV_scientist_2 = {
+		name = KOV_scientist_2
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		scientist = {
+			skills = {
+				specialization_industry = 2
+			}
+			traits = { }
+		}
+	}
+
+	KOV_scientist_3 = {
+		name = KOV_scientist_3
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		scientist = {
+			skills = {
+				specialization_naval = 2
+			}
+			traits = { }
+		}
+	}
+
+	KOV_scientist_4 = {
+		name = KOV_scientist_4
+		portraits = {
+			civilian = { large = GFX_Portrait_Europe_Generic_1 }
+		}
+		scientist = {
+			skills = {
+				specialization_army = 2
+			}
+			traits = { }
+		}
+	}
+
+}

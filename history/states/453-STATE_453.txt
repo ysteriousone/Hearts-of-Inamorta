@@ -1,0 +1,26 @@
+state = {
+	id = 453
+	name = "STATE_WT_453"
+	manpower = 750000
+	state_category = town
+
+	history = {
+		owner = SWR
+		add_core_of = SWR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			5806 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5806 1 }
+	}
+
+	provinces = {
+		5806 6573 6782 6829 7061 7070 8452 8549 8565 9329 9676 9691 10001 11099 11311
+	}
+}

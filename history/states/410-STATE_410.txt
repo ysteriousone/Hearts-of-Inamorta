@@ -1,0 +1,26 @@
+state = {
+	id = 410
+	name = "STATE_WT_410"
+	manpower = 800000
+	state_category = town
+
+	history = {
+		owner = WOO
+		add_core_of = WOO
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			6811 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5724 1 }
+	}
+
+	provinces = {
+		5724 6432 6811 7030 7076 7693 7703 8689 9053 9159 9572 9940 10746 10883 11008 11226
+	}
+}

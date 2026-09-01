@@ -1,0 +1,26 @@
+state = {
+	id = 181
+	name = "STATE_WT_181"
+	manpower = 850000
+	state_category = town
+
+	history = {
+		owner = CRL
+		add_core_of = CRL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			303 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 303 1 }
+	}
+
+	provinces = {
+		303 598 797 954 1018 1407 1818 2111 2289 2877 3085 3275 3700 3854 4406 4892 4919
+	}
+}

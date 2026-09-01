@@ -1,0 +1,26 @@
+state = {
+	id = 327
+	name = "STATE_WT_327"
+	manpower = 900000
+	state_category = town
+
+	history = {
+		owner = WSR
+		add_core_of = WSR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			6580 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5614 1 }
+	}
+
+	provinces = {
+		5614 5686 6166 6281 6580 6732 6760 7501 7623 7694 8739 9284 9557 10021 10105 10667 10691 10986
+	}
+}

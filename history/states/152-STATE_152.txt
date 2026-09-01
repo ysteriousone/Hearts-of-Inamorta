@@ -1,0 +1,22 @@
+state = {
+	id = 152
+	name = "STATE_WT_152"
+	manpower = 850000
+	state_category = town
+
+	history = {
+		owner = GLT
+		add_core_of = GLT
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 217 1 }
+	}
+
+	provinces = {
+		217 811 1253 2257 2316 2407 2742 3644 3649 3724 3975 4011 4380 4476 4625 4765 4983
+	}
+}

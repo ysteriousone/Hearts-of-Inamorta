@@ -1,0 +1,22 @@
+state = {
+	id = 467
+	name = "STATE_WT_467"
+	manpower = 900000
+	state_category = town
+
+	history = {
+		owner = SWR
+		add_core_of = SWR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 5837 1 }
+	}
+
+	provinces = {
+		5837 6773 7187 7229 7716 8012 8195 8315 8542 8557 9124 9316 9481 9685 9898 10731 10810 11092
+	}
+}

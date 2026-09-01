@@ -1,0 +1,22 @@
+state = {
+	id = 476
+	name = "STATE_WT_476"
+	manpower = 950000
+	state_category = town
+
+	history = {
+		owner = WST
+		add_core_of = WST
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 5866 1 }
+	}
+
+	provinces = {
+		5866 5989 6282 7771 7777 8574 8656 8696 8902 9358 9530 9909 9937 10358 10391 10415 10417 10747 11043
+	}
+}

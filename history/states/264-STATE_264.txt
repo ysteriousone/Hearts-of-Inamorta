@@ -1,0 +1,26 @@
+state = {
+	id = 264
+	name = "STATE_WT_264"
+	manpower = 800000
+	state_category = town
+
+	history = {
+		owner = CHO
+		add_core_of = CHO
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			5078 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5057 1 }
+	}
+
+	provinces = {
+		5057 5064 5078 5116 5124 5135 5182 5216 5219 5253 5260 5261 5286 5290 5342 5350
+	}
+}

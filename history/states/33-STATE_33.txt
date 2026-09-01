@@ -1,0 +1,22 @@
+state = {
+	id = 33
+	name = "STATE_WT_33"
+	manpower = 900000
+	state_category = town
+
+	history = {
+		owner = VMP
+		add_core_of = VMP
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 34 1 }
+	}
+
+	provinces = {
+		34 1025 1350 1714 1844 2067 2400 2473 2486 2650 2941 3120 3162 3541 4463 4465 4675 5014
+	}
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 347
+	name = "STATE_WT_347"
+	manpower = 900000
+	state_category = town
+
+	history = {
+		owner = PRT
+		add_core_of = PRT
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			6654 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5635 1 }
+	}
+
+	provinces = {
+		5635 6237 6456 6654 6669 7374 7656 9330 9396 9828 9845 10023 10176 10231 10238 10307 10518 10825
+	}
+}

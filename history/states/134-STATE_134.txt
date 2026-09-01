@@ -1,0 +1,22 @@
+state = {
+	id = 134
+	name = "STATE_WT_134"
+	manpower = 1150000
+	state_category = town
+
+	history = {
+		owner = ECL
+		add_core_of = ECL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 180 1 }
+	}
+
+	provinces = {
+		180 428 433 487 714 785 885 934 1330 1332 1940 2102 2270 2415 2618 2652 2677 2882 3793 4170 4342 4516 4930
+	}
+}

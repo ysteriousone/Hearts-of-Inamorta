@@ -1,0 +1,22 @@
+state = {
+	id = 231
+	name = "STATE_WT_231"
+	manpower = 900000
+	state_category = town
+
+	history = {
+		owner = JGT
+		add_core_of = JGT
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 531 1 }
+	}
+
+	provinces = {
+		531 569 680 1000 2132 2149 3046 3186 3800 3843 3968 4049 4355 4386 4450 4641 4681 4773
+	}
+}

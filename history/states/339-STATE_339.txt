@@ -1,0 +1,22 @@
+state = {
+	id = 339
+	name = "STATE_WT_339"
+	manpower = 1100000
+	state_category = town
+
+	history = {
+		owner = MID
+		add_core_of = MID
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 5627 1 }
+	}
+
+	provinces = {
+		5627 5875 6158 6514 6556 6714 7219 7544 7789 8065 8838 8942 9511 9664 9673 10486 10516 10802 10819 10901 11231 11312
+	}
+}

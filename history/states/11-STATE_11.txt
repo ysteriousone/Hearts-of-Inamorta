@@ -1,0 +1,22 @@
+state = {
+	id = 11
+	name = "STATE_WT_11"
+	manpower = 850000
+	state_category = town
+
+	history = {
+		owner = FEL
+		add_core_of = FEL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 11 1 }
+	}
+
+	provinces = {
+		11 30 172 502 778 983 1117 1446 1448 1612 1970 2293 2349 2536 2875 3192 4193
+	}
+}

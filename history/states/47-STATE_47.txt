@@ -1,0 +1,22 @@
+state = {
+	id = 47
+	name = "STATE_WT_47"
+	manpower = 1400000
+	state_category = town
+
+	history = {
+		owner = AIE
+		add_core_of = AIE
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 51 1 }
+	}
+
+	provinces = {
+		51 62 255 405 534 611 950 1049 1373 1673 1715 1890 1925 1985 2029 2452 2759 2842 2881 2909 2956 3117 3207 3374 4013 4359 4407 4995
+	}
+}

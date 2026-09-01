@@ -1,0 +1,22 @@
+state = {
+	id = 170
+	name = "STATE_WT_170"
+	manpower = 800000
+	state_category = town
+
+	history = {
+		owner = CHO
+		add_core_of = CHO
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 270 1 }
+	}
+
+	provinces = {
+		270 627 1053 1467 1514 1581 2135 2630 2733 2768 3323 3877 4331 4652 4748 4867
+	}
+}

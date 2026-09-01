@@ -1,0 +1,141 @@
+strategic_region={
+	id=32
+	name="STRATEGICREGION_WT_32"
+	provinces={
+		5585 5614 5624 5657 5686 5731 5732 5748 5755 5787 5794 5801 5804 5806 5811 5837 5844 5848 5852 5902 5905 5947 6049 6086 6106 6113 6115 6120 6139 6144 6157 6166 6172 6173 6175 6281 6286 6308 6314 6351 6352 6354 6390 6412 6429 6458 6469 6472 6473 6497 6501 6516 6518 6554 6573 6580 6606 6608 6624 6725 6732 6752 6757 6760 6768 6773 6778 6782 6829 6844 6847 6875 6897 6918 6970 7024 7027 7032 7039 7049 7058 7061 7070 7082 7129 7179 7187 7207 7220 7227 7229 7256 7263 7266 7315 7328 7334 7343 7386 7394 7420 7431 7437 7489 7501 7504 7506 7546 7566 7575 7598 7603 7623 7641 7683 7694 7716 7748 7752 7764 7786 7827 7872 7880 7881 7885 7918 7968 8004 8012 8027 8029 8044 8114 8127 8139 8183 8195 8237 8266 8274 8302 8303 8315 8343 8372 8378 8402 8424 8452 8466 8526 8542 8549 8557 8565 8568 8580 8620 8739 8760 8789 8830 8898 8905 8915 8928 8944 8964 8978 8989 8990 8997 8998 9032 9124 9129 9145 9153 9167 9192 9208 9277 9284 9292 9316 9329 9350 9354 9361 9374 9409 9427 9435 9454 9481 9486 9497 9516 9557 9589 9601 9603 9605 9613 9635 9660 9676 9681 9684 9685 9691 9713 9714 9720 9762 9768 9776 9794 9869 9877 9893 9896 9898 9904 9936 9978 9987 10001 10016 10021 10033 10089 10105 10123 10158 10230 10276 10287 10297 10312 10336 10349 10360 10384 10387 10424 10447 10478 10488 10538 10549 10568 10604 10625 10629 10655 10658 10667 10668 10680 10691 10714 10725 10731 10740 10767 10778 10788 10790 10810 10828 10837 10846 10885 10894 10920 10929 10943 10979 10986 11044 11073 11077 11089 11092 11099 11108 11131 11153 11163 11193 11280 11296 11311
+	}
+	weather={
+		period={
+			between={ 0.0 30.0 }
+			temperature={ -5.0 10.0 }
+			no_phenomenon=0.400
+			rain_light=0.200
+			rain_heavy=0.100
+			snow=0.150
+			blizzard=0.050
+			mud=0.100
+			sandstorm=0.000
+		}
+		period={
+			between={ 0.1 27.1 }
+			temperature={ -5.0 10.0 }
+			no_phenomenon=0.400
+			rain_light=0.200
+			rain_heavy=0.100
+			snow=0.150
+			blizzard=0.050
+			mud=0.100
+			sandstorm=0.000
+		}
+		period={
+			between={ 0.2 30.2 }
+			temperature={ 5.0 20.0 }
+			no_phenomenon=0.500
+			rain_light=0.250
+			rain_heavy=0.100
+			snow=0.050
+			blizzard=0.000
+			mud=0.100
+			sandstorm=0.000
+		}
+		period={
+			between={ 0.3 29.3 }
+			temperature={ 5.0 20.0 }
+			no_phenomenon=0.500
+			rain_light=0.250
+			rain_heavy=0.100
+			snow=0.050
+			blizzard=0.000
+			mud=0.100
+			sandstorm=0.000
+		}
+		period={
+			between={ 0.4 30.4 }
+			temperature={ 5.0 20.0 }
+			no_phenomenon=0.500
+			rain_light=0.250
+			rain_heavy=0.100
+			snow=0.050
+			blizzard=0.000
+			mud=0.100
+			sandstorm=0.000
+		}
+		period={
+			between={ 0.5 29.5 }
+			temperature={ 15.0 30.0 }
+			no_phenomenon=0.600
+			rain_light=0.200
+			rain_heavy=0.150
+			snow=0.000
+			blizzard=0.000
+			mud=0.050
+			sandstorm=0.000
+		}
+		period={
+			between={ 0.6 30.6 }
+			temperature={ 15.0 30.0 }
+			no_phenomenon=0.600
+			rain_light=0.200
+			rain_heavy=0.150
+			snow=0.000
+			blizzard=0.000
+			mud=0.050
+			sandstorm=0.000
+		}
+		period={
+			between={ 0.7 30.7 }
+			temperature={ 15.0 30.0 }
+			no_phenomenon=0.600
+			rain_light=0.200
+			rain_heavy=0.150
+			snow=0.000
+			blizzard=0.000
+			mud=0.050
+			sandstorm=0.000
+		}
+		period={
+			between={ 0.8 29.8 }
+			temperature={ 5.0 18.0 }
+			no_phenomenon=0.500
+			rain_light=0.250
+			rain_heavy=0.100
+			snow=0.050
+			blizzard=0.000
+			mud=0.100
+			sandstorm=0.000
+		}
+		period={
+			between={ 0.9 30.9 }
+			temperature={ 5.0 18.0 }
+			no_phenomenon=0.500
+			rain_light=0.250
+			rain_heavy=0.100
+			snow=0.050
+			blizzard=0.000
+			mud=0.100
+			sandstorm=0.000
+		}
+		period={
+			between={ 0.10 29.10 }
+			temperature={ 5.0 18.0 }
+			no_phenomenon=0.500
+			rain_light=0.250
+			rain_heavy=0.100
+			snow=0.050
+			blizzard=0.000
+			mud=0.100
+			sandstorm=0.000
+		}
+		period={
+			between={ 0.11 30.11 }
+			temperature={ -5.0 10.0 }
+			no_phenomenon=0.400
+			rain_light=0.200
+			rain_heavy=0.100
+			snow=0.150
+			blizzard=0.050
+			mud=0.100
+			sandstorm=0.000
+		}
+	}
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 218
+	name = "STATE_WT_218"
+	manpower = 850000
+	state_category = town
+
+	history = {
+		owner = ELC
+		add_core_of = ELC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			870 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 464 1 }
+	}
+
+	provinces = {
+		464 482 823 870 1061 1662 1834 1918 2005 2331 2687 2837 2848 3148 3158 3389 4551
+	}
+}

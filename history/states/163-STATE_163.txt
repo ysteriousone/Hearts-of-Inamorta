@@ -1,0 +1,22 @@
+state = {
+	id = 163
+	name = "STATE_WT_163"
+	manpower = 1250000
+	state_category = town
+
+	history = {
+		owner = ECL
+		add_core_of = ECL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 245 1 }
+	}
+
+	provinces = {
+		245 397 1072 1133 1615 1709 2031 2048 2266 2430 2736 2746 2812 3040 3072 3180 3680 3900 4020 4092 4123 4171 4367 4533 4677
+	}
+}

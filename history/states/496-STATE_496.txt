@@ -1,0 +1,22 @@
+state = {
+	id = 496
+	name = "STATE_WT_496"
+	manpower = 1150000
+	state_category = town
+
+	history = {
+		owner = MAG
+		add_core_of = MAG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 5926 1 }
+	}
+
+	provinces = {
+		5926 5937 6055 6413 6770 6845 6951 7006 7607 8111 8130 8241 8658 9576 10015 10073 10189 10589 10602 10743 10770 10792 11232
+	}
+}

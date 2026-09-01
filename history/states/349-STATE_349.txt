@@ -1,0 +1,26 @@
+state = {
+	id = 349
+	name = "STATE_WT_349"
+	manpower = 850000
+	state_category = town
+
+	history = {
+		owner = ODE
+		add_core_of = ODE
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			5699 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 5637 1 }
+	}
+
+	provinces = {
+		5637 5699 5760 6053 7365 7556 7663 8776 8796 8939 9428 9722 9913 10799 10954 11040 11060
+	}
+}

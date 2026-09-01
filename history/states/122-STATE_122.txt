@@ -1,0 +1,26 @@
+state = {
+	id = 122
+	name = "STATE_WT_122"
+	manpower = 900000
+	state_category = town
+
+	history = {
+		owner = JGT
+		add_core_of = JGT
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			3092 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 148 1 }
+	}
+
+	provinces = {
+		148 230 635 1166 1466 1593 1621 2014 2017 2255 2432 2665 2868 3092 3606 3615 4031 4497
+	}
+}

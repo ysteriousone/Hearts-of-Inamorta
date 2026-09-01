@@ -1,0 +1,26 @@
+state = {
+	id = 133
+	name = "STATE_WT_133"
+	manpower = 1150000
+	state_category = town
+
+	history = {
+		owner = KOV
+		add_core_of = KOV
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			442 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 175 1 }
+	}
+
+	provinces = {
+		175 210 400 442 866 1237 1241 1303 1463 1618 1929 2087 2726 2879 3185 3579 3883 3885 4207 4299 4330 4658 4975
+	}
+}

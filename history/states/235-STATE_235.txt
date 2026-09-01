@@ -1,0 +1,22 @@
+state = {
+	id = 235
+	name = "STATE_WT_235"
+	manpower = 850000
+	state_category = town
+
+	history = {
+		owner = COV
+		add_core_of = COV
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 624 1 }
+	}
+
+	provinces = {
+		624 629 708 1195 1590 1933 2418 2784 2894 2957 2973 3141 3227 3282 3290 3970 4279
+	}
+}
