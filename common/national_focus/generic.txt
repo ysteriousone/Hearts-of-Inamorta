@@ -1,0 +1,176 @@
+focus_tree = {
+    id = generic_tree
+    default = yes
+    country = {
+        factor = 0
+    }
+    continuous_focus_position = { x = -1214 y = 1202 }
+
+    focus = {
+        id = our_ways
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 0
+        cost = 10
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = our_place_in_Inamorta
+        icon = GFX_goal_generic_construct_civ_factory
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = our_ways }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = the_threat_east
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 1
+        cost = 10
+        prerequisite = { focus = our_ways }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = strengthen_weapon_worship
+        icon = GFX_goal_generic_construct_civ_factory
+        x = -6
+        y = 2
+        cost = 10
+        prerequisite = { focus = our_place_in_Inamorta }
+        mutually_exclusive = { focus = reject_the_old_ways }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = reject_the_old_ways
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 2
+        cost = 10
+        prerequisite = { focus = our_place_in_Inamorta }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = an_entity_called_god
+        icon = GFX_goal_generic_construct_civ_factory
+        x = -1
+        y = 3
+        cost = 10
+        prerequisite = { focus = reject_the_old_ways }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = purging_the_zealots
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 3
+        cost = 10
+        prerequisite = { focus = reject_the_old_ways }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = consolidate_our_positions
+        icon = GFX_goal_generic_construct_civ_factory
+        x = -8
+        y = 3
+        cost = 10
+        prerequisite = { focus = strengthen_weapon_worship }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = join_order
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 2
+        cost = 10
+        prerequisite = { focus = the_threat_east }
+        mutually_exclusive = { focus = my_hoi4_mod_generic_tree_focus_10 }
+        completion_reward = {
+            ODE = {
+            add_to_faction = ROOT
+             }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = my_hoi4_mod_generic_tree_focus_10
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 2
+        cost = 10
+        prerequisite = { focus = the_threat_east }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = continue_the_age_of_violence
+        icon = GFX_goal_generic_construct_civ_factory
+        x = -5
+        y = 3
+        cost = 10
+        prerequisite = { focus = strengthen_weapon_worship }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
