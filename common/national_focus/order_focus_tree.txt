@@ -1,19 +1,45 @@
 focus_tree = {
-    id = generic_tree
-    default = yes
-    country = {
-        factor = 1
-    }
-    continuous_focus_position = { x = -1214 y = 1202 }
+	id = argentine_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ODE
+		} 
+	}
+
+    continuous_focus_position = { x = -830 y = 1202 }
 
     focus = {
-        id = our_ways
+        id = a_stick_war
         icon = GFX_goal_generic_construct_civ_factory
-        x = 1
+        x = 4
+        y = -1
+        cost = 10
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = a_stronghold_secured
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
         y = 0
         cost = 10
+        prerequisite = { focus = a_stick_war }
+        available = {
+            has_war = no
+        }
         completion_reward = {
             add_political_power = 50
+            every_owned_state = {
+            add_core_of = ODE
+            }
         }
         ai_will_do = {
             factor = 1
@@ -21,136 +47,12 @@ focus_tree = {
     }
 
     focus = {
-        id = our_place_in_Inamorta
-        icon = GFX_goal_generic_construct_civ_factory
-        x = -1
-        y = 1
-        cost = 10
-        prerequisite = { focus = our_ways }
-        completion_reward = {
-            add_political_power = 50
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
-    focus = {
-        id = the_threat_east
-        icon = GFX_goal_generic_construct_civ_factory
-        x = 8
-        y = 1
-        cost = 10
-        prerequisite = { focus = our_ways }
-        completion_reward = {
-            add_political_power = 50
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
-    focus = {
-        id = strengthen_weapon_worship
-        icon = GFX_goal_generic_construct_civ_factory
-        x = -6
-        y = 2
-        cost = 10
-        prerequisite = { focus = our_place_in_Inamorta }
-        mutually_exclusive = { focus = reject_the_old_ways }
-        completion_reward = {
-            add_political_power = 50
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
-    focus = {
-        id = reject_the_old_ways
-        icon = GFX_goal_generic_construct_civ_factory
-        x = 1
-        y = 2
-        cost = 10
-        prerequisite = { focus = our_place_in_Inamorta }
-        completion_reward = {
-            add_political_power = 50
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
-    focus = {
-        id = an_entity_called_god
-        icon = GFX_goal_generic_construct_civ_factory
-        x = -1
-        y = 3
-        cost = 10
-        prerequisite = { focus = reject_the_old_ways }
-        completion_reward = {
-            add_political_power = 50
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
-    focus = {
-        id = purging_the_zealots
-        icon = GFX_goal_generic_construct_civ_factory
-        x = 3
-        y = 3
-        cost = 10
-        prerequisite = { focus = reject_the_old_ways }
-        completion_reward = {
-            add_political_power = 50
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
-    focus = {
-        id = consolidate_our_positions
-        icon = GFX_goal_generic_construct_civ_factory
-        x = -8
-        y = 3
-        cost = 10
-        prerequisite = { focus = strengthen_weapon_worship }
-        completion_reward = {
-            add_political_power = 50
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
-    focus = {
-        id = join_order
+        id = my_hoi4_mod_order_focus_tree_focus_3
         icon = GFX_goal_generic_construct_civ_factory
         x = 6
-        y = 2
+        y = -0
         cost = 10
-        prerequisite = { focus = the_threat_east }
-        mutually_exclusive = { focus = my_hoi4_mod_generic_tree_focus_10 }
-        completion_reward = {
-            ODE = {
-            add_to_faction = ROOT
-             }
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
-    focus = {
-        id = my_hoi4_mod_generic_tree_focus_10
-        icon = GFX_goal_generic_construct_civ_factory
-        x = 9
-        y = 2
-        cost = 10
-        prerequisite = { focus = the_threat_east }
+        prerequisite = { focus = a_stick_war }
         completion_reward = {
             add_political_power = 50
         }
@@ -160,12 +62,122 @@ focus_tree = {
     }
 
     focus = {
-        id = continue_the_age_of_violence
+        id = my_hoi4_mod_order_focus_tree_focus_4
         icon = GFX_goal_generic_construct_civ_factory
-        x = -5
+        x = 4
+        y = 2
+        cost = 10
+        prerequisite = { focus = a_stronghold_secured }
+        prerequisite = { focus = my_hoi4_mod_order_focus_tree_focus_3 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = co_operate_with_the_tribes
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
         y = 3
         cost = 10
-        prerequisite = { focus = strengthen_weapon_worship }
+        prerequisite = { focus = my_hoi4_mod_order_focus_tree_focus_4 }
+        mutually_exclusive = { focus = endless_assimilation }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = endless_assimilation
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 3
+        cost = 10
+        prerequisite = { focus = my_hoi4_mod_order_focus_tree_focus_4 }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = the_way_of_the_sword
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 5
+        cost = 10
+        prerequisite = { focus = co_operate_with_the_tribes focus = endless_assimilation }
+        completion_reward = {
+            add_political_power = 50
+            declare_war_on = {
+                target = SWR
+                type = annex_everything
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = continue_furthur
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 6
+        cost = 10
+        prerequisite = { focus = the_way_of_the_sword }
+        completion_reward = {
+            add_political_power = 50
+            declare_war_on = {
+                target = WSY
+                type = annex_everything
+                declare_war_on = {
+                    target = WSR
+                    type = annex_everything
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = my_hoi4_mod_order_focus_tree_focus_9
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 6
+        cost = 10
+        prerequisite = { focus = the_way_of_the_sword }
+        available = {
+            has_war = no
+        }
+        completion_reward = {
+            add_political_power = 50
+            declare_war_on = {
+                target = ACH
+                type = annex_everything
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    focus = {
+        id = gold_is_great
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 16
+        y = -1
+        cost = 10
         completion_reward = {
             add_political_power = 50
         }

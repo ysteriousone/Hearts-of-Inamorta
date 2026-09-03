@@ -1,4 +1,5 @@
 capital = 577
+load_focus_tree = order_focus_tree
 oob = "ODE_1936"
 set_research_slots = 3
 load_focus_tree = generic_focus
@@ -8,11 +9,22 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+declare_war_on = {
+target = TRB
+type = annex_everything
+ }
 set_popularities = {
 	neutrality = 80
 	democratic = 10
 	fascism = 5
 	communism = 5
 }
+
+
+
+
+
+create_faction = "Order Empire"
 
 # end of country history
