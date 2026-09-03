@@ -1,6 +1,6 @@
 focus_tree = {
-    id = generic_tree
-    default = yes
+    id = generic_focus
+	default = yes
     country = {
         factor = 1
     }

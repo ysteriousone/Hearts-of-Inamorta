@@ -1,3 +1,0 @@
-# Placeholder — vanilla on_actions 引用已删 decisions, 必须空块代替
-on_actions = {
-}
