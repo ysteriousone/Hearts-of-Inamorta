@@ -4,6 +4,10 @@ state = {
 	manpower = 1050000
 	state_category = town
 
+	resources = {
+		mana = 7
+	}
+
 	history = {
 		owner = NML
 		add_core_of = NML

@@ -4,6 +4,10 @@ state = {
 	manpower = 1100000
 	state_category = town
 
+	resources = {
+		mana = 10
+	}
+
 	history = {
 		owner = COV
 		add_core_of = COV

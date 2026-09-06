@@ -4,6 +4,10 @@ state = {
 	manpower = 1400000
 	state_category = town
 
+	resources = {
+		gold = 4
+	}
+
 	history = {
 		owner = VMP
 		add_core_of = VMP

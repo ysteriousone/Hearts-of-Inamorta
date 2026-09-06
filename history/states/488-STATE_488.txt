@@ -4,6 +4,11 @@ state = {
 	manpower = 800000
 	state_category = town
 
+	resources = {
+		gold = 9
+		mana = 3
+	}
+
 	history = {
 		owner = WST
 		add_core_of = WST

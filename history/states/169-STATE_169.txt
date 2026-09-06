@@ -4,6 +4,10 @@ state = {
 	manpower = 950000
 	state_category = town
 
+	resources = {
+		gold = 6
+	}
+
 	history = {
 		owner = JGT
 		add_core_of = JGT

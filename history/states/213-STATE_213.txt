@@ -4,6 +4,10 @@ state = {
 	manpower = 700000
 	state_category = town
 
+	resources = {
+		gold = 4
+	}
+
 	history = {
 		owner = ECL
 		add_core_of = ECL
