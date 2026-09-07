@@ -5,7 +5,24 @@ focus_tree = {
         factor = 1
     }
     continuous_focus_position = { x = -1214 y = 1202 }
-
+    focus = {
+        id = The_Divided_Swordwrath
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 15
+        y = 0
+		allow_branch = {
+		tag = SWR
+		 }
+        cost = 10
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	
     focus = {
         id = our_ways
         icon = GFX_goal_generic_construct_civ_factory
@@ -19,6 +36,8 @@ focus_tree = {
             factor = 1
         }
     }
+	
+
 
     focus = {
         id = our_place_in_Inamorta
@@ -153,7 +172,26 @@ focus_tree = {
             factor = 1
         }
     }
-
+	
+	focus = {
+        id = focus_on_Co-operation
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 3
+        cost = 10
+		available = {
+		 }
+		  
+        prerequisite = { focus = join_order }
+        completion_reward = {
+            ODE = {
+            add_to_faction = ROOT
+             }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+}
     focus = {
         id = my_hoi4_mod_generic_tree_focus_10
 		mutually_exclusive = { focus = join_order }
@@ -162,6 +200,21 @@ focus_tree = {
         y = 2
         cost = 10
         prerequisite = { focus = the_threat_east }
+        completion_reward = {
+            add_political_power = 50
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    focus = {
+        id = Antagonize_Order
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 3
+        cost = 10
+        prerequisite = { focus = my_hoi4_mod_generic_tree_focus_10 }
         completion_reward = {
             add_political_power = 50
         }

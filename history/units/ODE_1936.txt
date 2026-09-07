@@ -25,6 +25,42 @@ units = {
 		start_equipment_factor = 1
 
 	}
+	
+	division = { # "2 Clubmen"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 8877
+		division_template = "Order Clubmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+	division = { # "3 Clubmen"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 8719
+		division_template = "Order Clubmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+	division = { # "4 Clubmen"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9507
+		division_template = "Order Clubmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
 
 	
 }

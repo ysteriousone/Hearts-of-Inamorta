@@ -1,0 +1,64 @@
+﻿
+division_template = {
+	name = "Tribal Clubmen"
+	division_names_group = TRB_INF_01
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+	support = {
+	}
+}
+
+units = {
+
+	division = { # "1 Clubmen"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7001
+		division_template = "Tribal Clubmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+division = { # "2 Clubmen"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9093
+		division_template = "Tribal Clubmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { # "2 Clubmen"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10175
+		division_template = "Tribal Clubmen"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "TRB"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 80
+	}
+}
