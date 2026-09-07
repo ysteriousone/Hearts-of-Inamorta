@@ -1,0 +1,24 @@
+add_namespace = peterland
+
+country_event = {
+	id = peterland.2
+	title = peterland.2.t
+	desc = peterland.2.d
+	picture = GFX_report_event_generic_coup
+
+	is_triggered_only = yes
+
+	option = {
+		name = peterland.2.a
+
+		add_stability = -0.15
+		add_war_support = 0.10
+
+		set_country_flag = peterland_swordwrath_spearton_coup
+
+		set_politics = {
+		    ruling_party = neutrality
+            elections_allowed = no
+		}
+	}
+}

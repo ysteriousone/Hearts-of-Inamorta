@@ -1,0 +1,31 @@
+add_namespace = westwind
+
+country_event = {
+	id = westwind.1
+	title = westwind.1.t
+	desc = westwind.1.d
+	picture = GFX_report_event_generic_coup
+
+	is_triggered_only = yes
+
+	option = {
+		name = westwind.1.a
+
+		add_stability = -0.15
+		add_war_support = 0.10
+
+		set_country_flag = westwind_archidon_swordwrath_coup
+
+		set_politics = {
+		    ruling_party = fascism
+            elections_allowed = no
+		}
+        
+        start_civil_war = {
+            ideology = democratic
+            size = 0.4
+            navy_ratio = 0
+            air_ratio = 0
+        }
+	}
+}
