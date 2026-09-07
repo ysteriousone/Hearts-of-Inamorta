@@ -103,6 +103,7 @@ focus_tree = {
         y = 3
         cost = 10
         prerequisite = { focus = my_hoi4_mod_order_focus_tree_focus_4 }
+		mutually_exclusive = { focus = co_operate_with_the_tribes }
         completion_reward = {
             add_political_power = 50
         }
@@ -140,13 +141,14 @@ focus_tree = {
         completion_reward = {
             add_political_power = 50
             declare_war_on = {
-                target = WSY
+                target = ESY
                 type = annex_everything
+			}
                 declare_war_on = {
                     target = WSR
                     type = annex_everything
                 }
-            }
+       
         }
         ai_will_do = {
             factor = 1
@@ -154,12 +156,35 @@ focus_tree = {
     }
 
     focus = {
-        id = my_hoi4_mod_order_focus_tree_focus_9
+        id = the_way_of_the_archer
         icon = GFX_goal_generic_construct_civ_factory
         x = 6
         y = 6
         cost = 10
         prerequisite = { focus = the_way_of_the_sword }
+        available = {
+            has_war = no
+        }
+        completion_reward = {
+            add_political_power = 50
+            declare_war_on = {
+                target = ACH
+                type = annex_everything
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+ focus = {
+        id = Consolidate_our_controls
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 7
+        cost = 7
+        prerequisite = { focus = the_way_of_the_archer }
+		prerequisite = { focus = continue_furthur }
         available = {
             has_war = no
         }

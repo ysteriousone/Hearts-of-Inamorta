@@ -73,6 +73,7 @@ focus_tree = {
         y = 2
         cost = 10
         prerequisite = { focus = our_place_in_Inamorta }
+		mutually_exclusive = { focus = strengthen_weapon_worship }
         completion_reward = {
             add_political_power = 50
         }
@@ -132,6 +133,15 @@ focus_tree = {
         x = 6
         y = 2
         cost = 10
+		available = {
+		NOT = { 
+		tag = ACH
+		tag = SWR
+		tag = SPT
+		tag = NML
+		tag = CHO
+		 }
+		  }
         prerequisite = { focus = the_threat_east }
         mutually_exclusive = { focus = my_hoi4_mod_generic_tree_focus_10 }
         completion_reward = {
@@ -146,6 +156,7 @@ focus_tree = {
 
     focus = {
         id = my_hoi4_mod_generic_tree_focus_10
+		mutually_exclusive = { focus = join_order }
         icon = GFX_goal_generic_construct_civ_factory
         x = 9
         y = 2
