@@ -14,5 +14,20 @@ set_popularities = {
 	fascism = 5
 	communism = 5
 }
-
+declare_war_on = {
+	target = NDR
+	type = annex_everything
+}
+declare_war_on = {
+	target = DES
+	type = annex_everything
+}
+declare_war_on = {
+	target = DED
+	type = annex_everything
+}
+declare_war_on = {
+	target = DER
+	type = annex_everything
+}
 # end of country history

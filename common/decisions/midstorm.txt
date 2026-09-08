@@ -1,0 +1,174 @@
+# Empty — TC MOD replaces vanilla decisions
+MID_core_tribes_category = {
+    MID_core_tribes = {
+        allowed = MID
+        visible = {
+            NOT = {has_country_flag = MID_cored_states_flag}
+        }
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = owns_all_northern_dead_tribe_states_tt
+                controls_state = 318
+                controls_state = 491
+                controls_state = 403
+                controls_state = 356
+                controls_state = 375
+                controls_state = 323
+                controls_state = 378
+                controls_state = 377
+                controls_state = 331
+                controls_state = 308
+                controls_state = 515
+                controls_state = 570
+                controls_state = 495
+                controls_state = 471
+                controls_state = 512
+                controls_state = 368
+                controls_state = 328
+                controls_state = 532
+                controls_state = 383
+                controls_state = 382
+                controls_state = 330
+                controls_state = 521
+                controls_state = 365
+                controls_state = 395
+                controls_state = 316
+                controls_state = 418
+                controls_state = 465
+                controls_state = 407
+                controls_state = 312
+                controls_state = 548
+                controls_state = 400
+                controls_state = 545
+                controls_state = 470
+                controls_state = 369
+                controls_state = 536
+                controls_state = 363
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = owns_all_southern_dead_tribe_states_tt
+                controls_state = 459
+                controls_state = 394
+                controls_state = 422
+                controls_state = 507
+                controls_state = 293
+                controls_state = 442
+                controls_state = 358
+                controls_state = 357
+                controls_state = 404
+                controls_state = 370
+            }
+            
+            custom_trigger_tooltip = {
+                tooltip = owns_all_plagued_tribe_states_tt
+                controls_state = 294
+                controls_state = 360
+                controls_state = 487
+                controls_state = 362
+                controls_state = 524
+                controls_state = 376
+                controls_state = 325
+                controls_state = 373
+                controls_state = 427
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = owns_all_dead_tribe_states_tt
+                controls_state = 334
+                controls_state = 535
+                controls_state = 315
+                controls_state = 387
+                controls_state = 384
+                controls_state = 320
+                controls_state = 567
+                controls_state = 554
+                controls_state = 314
+                controls_state = 428
+                controls_state = 371
+                controls_state = 302
+                controls_state = 559
+                controls_state = 304
+                controls_state = 449
+            } 
+        }
+
+        complete_effect = {
+318 = { add_core_of = ROOT }
+491 = { add_core_of = ROOT }
+403 = { add_core_of = ROOT }
+356 = { add_core_of = ROOT }
+375 = { add_core_of = ROOT }
+323 = { add_core_of = ROOT }
+378 = { add_core_of = ROOT }
+377 = { add_core_of = ROOT }
+331 = { add_core_of = ROOT }
+308 = { add_core_of = ROOT }
+515 = { add_core_of = ROOT }
+570 = { add_core_of = ROOT }
+495 = { add_core_of = ROOT }
+471 = { add_core_of = ROOT }
+512 = { add_core_of = ROOT }
+368 = { add_core_of = ROOT }
+328 = { add_core_of = ROOT }
+532 = { add_core_of = ROOT }
+383 = { add_core_of = ROOT }
+382 = { add_core_of = ROOT }
+330 = { add_core_of = ROOT }
+521 = { add_core_of = ROOT }
+365 = { add_core_of = ROOT }
+395 = { add_core_of = ROOT }
+316 = { add_core_of = ROOT }
+418 = { add_core_of = ROOT }
+465 = { add_core_of = ROOT }
+407 = { add_core_of = ROOT }
+312 = { add_core_of = ROOT }
+548 = { add_core_of = ROOT }
+400 = { add_core_of = ROOT }
+545 = { add_core_of = ROOT }
+470 = { add_core_of = ROOT }
+369 = { add_core_of = ROOT }
+536 = { add_core_of = ROOT }
+363 = { add_core_of = ROOT }
+
+459 = { add_core_of = ROOT }
+394 = { add_core_of = ROOT }
+422 = { add_core_of = ROOT }
+507 = { add_core_of = ROOT }
+293 = { add_core_of = ROOT }
+442 = { add_core_of = ROOT }
+358 = { add_core_of = ROOT }
+357 = { add_core_of = ROOT }
+404 = { add_core_of = ROOT }
+370 = { add_core_of = ROOT }
+
+294 = { add_core_of = ROOT }
+360 = { add_core_of = ROOT }
+487 = { add_core_of = ROOT }
+362 = { add_core_of = ROOT }
+524 = { add_core_of = ROOT }
+376 = { add_core_of = ROOT }
+325 = { add_core_of = ROOT }
+373 = { add_core_of = ROOT }
+427 = { add_core_of = ROOT }
+
+334 = { add_core_of = ROOT }
+535 = { add_core_of = ROOT }
+315 = { add_core_of = ROOT }
+387 = { add_core_of = ROOT }
+384 = { add_core_of = ROOT }
+320 = { add_core_of = ROOT }
+567 = { add_core_of = ROOT }
+554 = { add_core_of = ROOT }
+314 = { add_core_of = ROOT }
+428 = { add_core_of = ROOT }
+371 = { add_core_of = ROOT }
+302 = { add_core_of = ROOT }
+559 = { add_core_of = ROOT }
+304 = { add_core_of = ROOT }
+449 = { add_core_of = ROOT }
+
+            set_country_flag = MID_cored_states_flag
+        }
+    }
+}
