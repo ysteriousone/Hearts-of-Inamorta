@@ -1,0 +1,99 @@
+﻿
+division_template = {
+	name = "Tribal Elementals"
+	division_names_group = TRB_INF_01
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+	support = {
+	}
+}
+
+units = {
+
+	division = { # "1 Elementals"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5117
+		division_template = "Tribal Elementals"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+	division = { # "2 Elementals"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 5806
+		division_template = "Tribal Elementals"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { # "2 Elementals"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 5059
+		division_template = "Tribal Elementals"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+	division = { # "1 Elementals"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 5044
+		division_template = "Tribal Elementals"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+	division = { # "2 Elementals"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 5049
+		division_template = "Tribal Elementals"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { # "2 Elementals"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 5038
+		division_template = "Tribal Elementals"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "TRB"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 80
+	}
+}
